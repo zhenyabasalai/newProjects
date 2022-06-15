@@ -2,6 +2,7 @@ package javadz.lesson14062022;
 
 import java.util.Arrays;
 import java.util.Scanner;
+
 public class Task1 {
     public static void main(String[] args) {
 
