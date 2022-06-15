@@ -1,6 +1,6 @@
 package javadz.lesson14062022;
 
-public class Task2 {
+public class TaskChess {
     public static void main(String[] args) {
         String[][] chess = new String[8][8];
         for (int i = 0; i < chess.length; i++) {
