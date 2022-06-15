@@ -1,7 +1,5 @@
 package javadz.lesson14062022;
 
-import java.util.Arrays;
-
 public class Task2 {
     public static void main(String[] args) {
         String[][] chess = new String[8][8];
@@ -10,7 +8,7 @@ public class Task2 {
                 if ((i + j) % 2 == 0)
                     chess[i][j] = "W";
                 else chess[i][j] = "B";
-                System.out.print(chess[i][j]);
+                System.out.print(" " + chess[i][j] + " ");
             }
             System.out.println();
         }
