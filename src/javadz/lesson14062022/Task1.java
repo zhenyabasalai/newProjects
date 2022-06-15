@@ -6,7 +6,7 @@ public class Task1 {
     public static void main(String[] args) {
 
         int[][][] array = {{{4, 7, 8, 4}, {7, 2, 1}}, {{5, 6, 3}}};
-        System.out.print("Input namber: ");
+        System.out.print("Input digits: ");
         Scanner namb = new Scanner(System.in);
         int a = namb.nextInt();
         System.out.println(Arrays.deepToString(array));
