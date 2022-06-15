@@ -3,7 +3,7 @@ package javadz.lesson14062022;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Task1 {
+public class TaskElem {
     public static void main(String[] args) {
 
         int[][][] array = {{{4, 7, 8, 4}, {7, 2, 1}}, {{5, 6, 3}}};
