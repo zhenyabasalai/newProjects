@@ -20,9 +20,14 @@ public class Main {
         allStudent.add(3, student4);
         allStudent.add(4, student5);
 
-        allStudent.remove(student5);
-        allStudent.remove(student4);
 
+        for (int i = 0; i < allStudent.size(); i++) {
+            if (allStudent.get(i).getMark() < 4) {
+                allStudent.remove(i);
+                i--;
 
+            }
+        }
+        System.out.println(allStudent);
     }
 }

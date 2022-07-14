@@ -2,8 +2,8 @@ package javadz.lesson12072022.Task1;
 
 public class Student {
 
-    String name;
-    float mark;
+    private String name;
+    private float mark;
 
     public Student() {
     }
@@ -28,6 +28,14 @@ public class Student {
 
     public void setMark(float mark) {
         this.mark = mark;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", mark=" + mark +
+                '}';
     }
 }
 
